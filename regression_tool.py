@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+
 """
 Created on Tue Aug 27 10:00:34 2019
 
@@ -10,11 +11,12 @@ The program takes values for LSTAT, the % lower status of the population, and RM
 """
 import pandas as pd
 from sklearn import datasets
-import tkinter as tk
-from functools import partial
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split, GridSearchCV
 from xgboost import XGBRegressor
+
+import tkinter as tk
+from functools import partial
 
 
 # Reading in the data
